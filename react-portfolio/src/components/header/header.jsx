@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import Kean from '../../assets/Kean,jpg'
 
 
 const header = () => {
@@ -11,6 +12,8 @@ const header = () => {
 <h1>Kean Bayneslow</h1>
 <h5 className='text-light'>Shift Supervisor</h5>
 <CTA />
+
+<div className="Kean"></div>
 
       </div>
 
