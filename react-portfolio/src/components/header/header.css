@@ -12,7 +12,7 @@ header {
 
 /* CTA */
 .cta {
-    margin-top: 2.5 rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -39,14 +39,14 @@ header {
 
 /* IMAGE */
 .Keanbg {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary), var(--color-bg));
     width: 22rem;
     height: 21rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding-right: 1rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 1.5rem 2rem 2rem 2rem; 
 }
@@ -65,6 +65,10 @@ header {
 @media screen and (max-width: 1024px) {
     .header {
         height: 68vh;
+    }
+    .scroll_down,
+    .header_socials{
+        margin-bottom: 20rem;
     }
     }
 
