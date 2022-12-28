@@ -41,12 +41,12 @@ header {
 .Keanbg {
     background: linear-gradient(var(--color-primary), var(--color-bg));
     width: 22rem;
-    height: 21rem;
+    height: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 3rem;
     padding-right: 1rem;
-    border-radius: 12rem 12rem 12rem 12rem;
+    border-radius: 12rem 12rem 12rem 12em;
     overflow: hidden;
     padding: 1.5rem 2rem 2rem 2rem; 
 }

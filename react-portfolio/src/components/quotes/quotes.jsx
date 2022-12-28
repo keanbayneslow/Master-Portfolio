@@ -3,7 +3,7 @@ import './quotes.css'
 
 const quotes = () => {
   return (
-    <div>quotes</div>
+    <section id='quotes'>quotes</section>
   )
 }
 
