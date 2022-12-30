@@ -9,6 +9,7 @@ const HeaderSocials = () => {
         <a href="https://github.com/keanbayneslow" target="_blank"><BsGithub/></a>
         
     </div>
+    
   )
 }
 
