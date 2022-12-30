@@ -2,14 +2,12 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
-    align-items: center;
 }
 
 .header_container {
     text-align: center;
     height: 100%;
     position: relative;
-    align-items: center;
 }
 
 /* CTA */
@@ -18,7 +16,7 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-    padding-top: 1.5rem;
+    
 }
 
 /* HEADER SOCIALS */
@@ -29,7 +27,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    
+    bottom: 3rem;
 }
 
 .header_socials::after {
@@ -46,10 +44,10 @@ header {
     height: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 3rem;
-    border-radius: 12rem 12rem 12rem 12em;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
-    padding: 2rem 2rem 2rem 2rem; 
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem; 
 }
 
 /* SCROLL DOWN */
@@ -59,18 +57,17 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 0.9rem; 
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .header {
         height: 68vh;
-        align-items: center;
     }
     .scroll_down,
     .header_socials{
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }
     }
 
@@ -78,7 +75,6 @@ header {
 @media screen and (max-width: 600px) {
     .header {
         height: 100vh;
-        align-items: center;
         
     }
 
