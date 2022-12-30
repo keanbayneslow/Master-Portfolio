@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Personal Pertfolio Webpage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Being my first attempt at a react application I wanted to greate a responsive and dynamic space that I can update with future projects, skills and experince. 
+
+Using
 
 ## Available Scripts
 
