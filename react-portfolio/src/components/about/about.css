@@ -89,7 +89,7 @@
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
-@media creen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .about_me {
         width: 65%;

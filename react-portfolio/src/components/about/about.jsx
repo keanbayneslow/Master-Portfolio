@@ -2,13 +2,13 @@ import React from 'react'
 import './about.css'
 import sonder from '../../assets/sonder.png'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolder} from 'react-icons/vsc'
+import {GiHummingbird} from 'react-icons/gi'
+import {FaDiceD20} from 'react-icons/fa'
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>Just A Little</h5>
+      <h5>#humble-brag</h5>
       <h2>About Me</h2>
 
       <div className="container about_container">
@@ -26,14 +26,14 @@ const About = () => {
               <small>12+ years working experience</small>
             </article>
             <article className='about_card'>
-              <FiUsers className='about_icon'/>
-              <h5>Clients?</h5>
-              <small>12+ years working experience</small>
+              <GiHummingbird className='about_icon'/>
+              <h5>Nature</h5>
+              <small>Life List of 100+ bird sightings</small>
             </article>
             <article className='about_card'>
-              <VscFolder className='about_icon'/>
-              <h5>Projects?</h5>
-              <small>12+ years working experience</small>
+              <FaDiceD20 className='about_icon'/>
+              <h5>Campaigns</h5>
+              <small>30+ dungeons plundered (D&D)</small>
             </article>
           </div>
 
