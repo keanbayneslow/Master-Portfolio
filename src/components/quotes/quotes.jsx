@@ -4,6 +4,38 @@ import Avatar1 from '../../assets/Avatar1.JPG'
 import Avatar2 from '../../assets/Avatar2.JPG'
 import Avatar3 from '../../assets/Avatar3.JPG'
 import Avatar4 from '../../assets/Avatar4.JPG'
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+const data = [
+  {
+    avatar: Avatar1, 
+    author: 'Insert',
+    quote: 'lorem20'
+  },
+  {
+    avatar: Avatar3, 
+    author: 'Insert',
+    quote: 'lorem20'
+  },
+  {
+    avatar: Avatar2, 
+    author: 'Insert',
+    quote: 'lorem20'
+  },
+  {
+    avatar: Avatar4, 
+    author: 'Insert',
+    quote: 'lorem20'
+  },
+]
+
 
 const Quotes = () => {
   return (
@@ -11,43 +43,25 @@ const Quotes = () => {
       <h5>What's Life Without Some Random</h5>
       <h2>Quotes</h2>
 
-      <div className="container quotes_container">
-        <article className="quotes">
+      <Swiper className="container quotes_container"
+      modules={[Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ clickable: true }}>
+        {
+          data.map(({avatar, author, quote}, index) => {
+            return (
+              <SwiperSlide key={index} className="quotes">
           <div className="quote_image">
-          <img src={Avatar1} alt="Quote Image One" />
+          <img src={avatar} />
           </div>
-          <h5 className='quote_name'>Quote By</h5>
-          <small className='quote_details'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni fuga praesentium qui saepe possimus assumenda adipisci, incidunt harum provident dolore reiciendis excepturi blanditiis numquam, vero atque exercitationem veritatis vel?
-          </small>
-        </article>
-
-        <article className="quotes">
-          <div className="quote_image">
-          <img src={Avatar3} alt="Quote Image One" />
-          </div>
-          <h5 className='quote_name'>Quote By</h5>
-          <small className='quote_details'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni fuga praesentium qui saepe possimus assumenda adipisci, incidunt harum provident dolore reiciendis excepturi blanditiis numquam, vero atque exercitationem veritatis vel?
-          </small>
-        </article>
-
-        <article className="quotes">
-          <div className="quote_image">
-          <img src={Avatar2} alt="Quote Image One" />
-          </div>
-          <h5 className='quote_name'>Quote By</h5>
-          <small className='quote_details'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni fuga praesentium qui saepe possimus assumenda adipisci, incidunt harum provident dolore reiciendis excepturi blanditiis numquam, vero atque exercitationem veritatis vel?
-          </small>
-        </article>
-
-        <article className="quotes">
-          <div className="quote_image">
-          <img src={Avatar4} alt="Quote Image One" />
-          </div>
-          <h5 className='quote_name'>Quote By</h5>
-          <small className='quote_details'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni fuga praesentium qui saepe possimus assumenda adipisci, incidunt harum provident dolore reiciendis excepturi blanditiis numquam, vero atque exercitationem veritatis vel?
-          </small>
-        </article>
-      </div>
+          <h5 className='quote_name'>{author}</h5>
+          <small className='quote_details'>{quote}</small>
+        </SwiperSlide>
+            )
+          })
+        }
+      </Swiper>
     </section>
   )
 }
