@@ -10,7 +10,7 @@ Being my first attempt at a react application I wanted to greate a responsive an
 - HTML
 - CSS - All styling
 - EmailJs - To impliments contact section from browser
-- Swiper
+- SwiperJs
 
 ## Deployment
 
