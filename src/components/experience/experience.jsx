@@ -16,35 +16,35 @@ const Experience = () => {
               <BsPatchCheckFill className= 'experience_details-icon'/>
               <div>
               <h4>Shift Supervisor - Sonder</h4>
-              <small>Insert details</small>
+              <small>Oct 2022 - present</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className= 'experience_details-icon'/>
               <div>
               <h4>Partners Manager - Helio</h4>
-              <small>Insert details</small>
+              <small>Jan 2019 - Oct 2022</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className= 'experience_details-icon'/>
               <div>
               <h4>Frontend Intern - Foodzone</h4>
-              <small>Insert details</small>
+              <small>Dec 2021 - Jun 2022</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className= 'experience_details-icon'/>
               <div>
               <h4>Technician - AJ Grant</h4>
-              <small>Insert details</small>
+              <small>April 2016 - Jan 2019</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className= 'experience_details-icon'/>
               <div>
               <h4>Police officer - WA Police</h4>
-              <small>Insert details</small>
+              <small>Feb 2009 - Feb 2016</small>
               </div>
             </article>
           </div>

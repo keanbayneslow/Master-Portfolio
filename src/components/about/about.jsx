@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
 
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum ipsum accusantium, quod quia, nobis impedit rem inventore itaque dicta adipisci, recusandae corporis. Tempora at ratione incidunt? Perferendis, atque quo.
+          <p> When asked, I generally describe myself as the inspiration for Batman but slightly taller and less grumpy, or a walking encyclopedia of dad jokes, a connoisseur of puns and a master of the obscure reference. If you're lucky, you might even catch me doing a soft-shoe shuffle or perhaps the stanky leg. I'm human version of Sunday morning cartoons, a combination of Willy Wonka, Tony Stark and Stephen Fry or perhaps more accurately, someone who just enjoys life by trying to improve a little bit everyday.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Chat</a>

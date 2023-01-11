@@ -16,23 +16,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: Avatar1, 
-    author: 'Insert',
-    quote: 'lorem20'
+    author: 'Dalinar Kholin - The Stormlight Archives',
+    quote: '“A journey will have pain and failure. It is not only the steps forward that we must accept. It is the stumbles. The trials. The knowledge that we will fail. That we will hurt those around us. But if we stop, if we accept the person we are when we fail, the journey ends. That failure becomes our destination.”'
   },
   {
     avatar: Avatar3, 
-    author: 'Insert',
-    quote: 'lorem20'
+    author: 'Nick Cave',
+    quote: '"I am a big fan of teatowels and am always on the lookout for a good one."'
   },
   {
     avatar: Avatar2, 
-    author: 'Insert',
-    quote: 'lorem20'
+    author: 'Kurt Vonnegut, Slaughterhouse-Five',
+    quote: '“There is no beginning, no middle, no end, no suspense, no moral, no causes, no effects. What we love in our books are the depths of many marvelous moments seen all at one time.”'
   },
   {
     avatar: Avatar4, 
-    author: 'Insert',
-    quote: 'lorem20'
+    author: 'Emmeline Pankhurst',
+    quote: '“I am what you call a hooligan.”'
   },
 ]
 

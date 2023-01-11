@@ -17,35 +17,35 @@ const Skills = () => {
           <ul className='skills_list'>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Project Management - strong theoretical, emerging practical</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Change Management - intermediate</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Data Analysis - emerging</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Team Management - intermadiate - strong</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Relationship Management - strong</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Flexibility</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Growth Mindset</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Resilience</p>
             </li>
           </ul>
         </article>
@@ -58,35 +58,23 @@ const Skills = () => {
           <ul className='skills_list'>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>HTML - intermediate</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>CSS - intermediate</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Javascript - emerging</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>ReactJs - emerging</p>
             </li>
             <li>
               <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='skills_list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Git - emerging</p>
             </li>
           </ul>
         </article>

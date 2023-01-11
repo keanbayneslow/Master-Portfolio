@@ -23,7 +23,7 @@ const Contact = () => {
 
 
   return (
-    <section id='contact'>contact
+    <section id='contact'>
     <h5>I'm not desperate... but please</h5>
     <h2>Contact Me</h2>
     
