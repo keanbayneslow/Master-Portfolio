@@ -14,5 +14,5 @@ Being my first attempt at a react application I wanted to greate a responsive an
 
 ## Deployment
 
-I will attempt to deploy on Github Pages
+Deployed on Github Pages
 
